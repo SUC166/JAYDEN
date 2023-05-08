@@ -4,7 +4,7 @@ const bodyParser=require('body-parser');
 const cors=require('cors');
 require('dotenv').config();
 const configuration = new Configuration({
-    apiKey: process.env.API_KEY
+    apiKey: process.env.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
 });
 const openai = new OpenAIApi(configuration);
 const app=express();
